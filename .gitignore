@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+BAM/coreWebRepository/core_react/node_modules
+BAM/coreWebRepository/core_react/.pnp
+BAM/coreWebRepository/core_react/.pnp.js
+
+# testing
+BAM/coreWebRepository/core_react/coverage
+
+# production
+BAM/coreWebRepository/core_react/build
+
+# misc
+BAM/coreWebRepository/core_react/.DS_Store
+BAM/coreWebRepository/core_react/.env.local
+BAM/coreWebRepository/core_react/.env.development.local
+BAM/coreWebRepository/core_react/.env.test.local
+BAM/coreWebRepository/core_react/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
